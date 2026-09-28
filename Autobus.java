@@ -23,6 +23,18 @@ public class Autobus{
         return anhaenger;
     }
     
+    public void setKennzeichen(String kennzeichen){
+        this.kennzeichen=kennzeichen;
+    }
+    
+    public void setSitzplaetze(int sitzplaetze){
+        this.sitzplaetze=sitzplaetze;
+    }
+    
+    public void setAnhaenger(boolean anhaenger){
+        this.anhaenger=anhaenger;
+    }
+    
     
     
 }
