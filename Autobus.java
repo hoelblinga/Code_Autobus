@@ -11,4 +11,18 @@ public class Autobus{
     private int sitzplaetze;
     private boolean anhaenger;
     
+    public String getKennzeichen(){
+        return kennzeichen;
+    }
+    
+    public int getSitzplaetze(){
+        return sitzplaetze;
+    }
+    
+    public boolean getAnhaenger(){
+        return anhaenger;
+    }
+    
+    
+    
 }
