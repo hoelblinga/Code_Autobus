@@ -11,6 +11,18 @@ public class Autobus{
     private int sitzplaetze;
     private boolean anhaenger;
     
+    public Autobus(){
+        setKennzeichen("W-1234A");
+        setSitzplaetze(29);
+        setAnhaenger(false);
+    }
+    
+    public Autobus(String kz, int sp, boolean anh){
+        setKennzeichen(kz);
+        setSitzplaetze(sp);
+        setAnhaenger(anh);
+    }
+    
     public String getKennzeichen(){
         return kennzeichen;
     }
